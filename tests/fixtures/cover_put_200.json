@@ -1,0 +1,1 @@
+{"success":true,"message":"표지 PDF가 교체되었습니다","data":{"bookUid":"bk_7H7BF7a6g3rU","kind":"cover","valid":true,"pdfSizeMm":{"width":544,"height":288},"messages":[],"warnings":[],"bookStatus":1,"url":"https://api-sandbox.sweetbook.com/v1/books/bk_7H7BF7a6g3rU/pdf-cover","pageMeta":{"currentPageCount":24,"pageMin":24,"pageMax":130,"pageIncrement":2,"isValid":true}}}

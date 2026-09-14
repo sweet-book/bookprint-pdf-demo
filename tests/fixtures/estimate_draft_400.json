@@ -1,0 +1,1 @@
+{"success":false,"message":"Bad Request","data":null,"errorCode":"ERR_VALIDATION_FAILED","errors":["Book이 FINALIZED 상태가 아닙니다: bk_7H7BF7a6g3rU (현재 상태: 1)"],"fieldErrors":[]}

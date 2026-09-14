@@ -1,0 +1,1 @@
+{"success":false,"message":"PDF 검증 실패","data":null,"errorCode":"ERR_VALIDATION_FAILED","errors":["표지 PDF 페이지수 불일치: 올바른 페이지수 1p, 업로드된 페이지수 24p","PDF 너비 불일치: 실제 249.0mm, 허용 규격 544.0mm (+/-1mm)","PDF 높이 불일치: 실제 254.0mm, 허용 규격 288.0mm (+/-1mm)"],"fieldErrors":[]}

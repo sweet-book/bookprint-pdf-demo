@@ -1,0 +1,1 @@
+{"success":true,"message":"내지 PDF가 업로드되었습니다","data":{"bookUid":"bk_7H7BF7a6g3rU","kind":"contents","valid":true,"pdfSizeMm":{"width":249,"height":254},"messages":[],"warnings":[],"bookStatus":1,"url":"https://api-sandbox.sweetbook.com/v1/books/bk_7H7BF7a6g3rU/pdf-contents","pageMeta":{"currentPageCount":24,"pageMin":24,"pageMax":130,"pageIncrement":2,"isValid":true}}}

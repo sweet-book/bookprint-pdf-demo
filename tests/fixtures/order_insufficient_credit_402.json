@@ -1,0 +1,1 @@
+{"success":false,"message":"Insufficient Credit","data":{"required":113870,"balance":99000.00,"currency":"KRW"},"errorCode":"ERR_INSUFFICIENT_CREDIT","errors":["잔액이 부족합니다. 필요: 113870, 잔액: 99000.00"],"fieldErrors":[]}

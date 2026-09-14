@@ -1,0 +1,1 @@
+{"success":false,"message":"Unprocessable Entity","data":null,"errorCode":"ERR_IDEMPOTENCY_KEY_MISMATCH","errors":["동일한 Idempotency-Key에 서로 다른 요청 본문이 사용되었습니다. 같은 키는 같은 본문에만 재사용 가능합니다."],"fieldErrors":[]}

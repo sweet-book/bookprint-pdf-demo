@@ -1,0 +1,38 @@
+{
+  "name": "bookprint-pdf-demo",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "BookPrint API PDF_UPLOAD 연동 데모 — 책 생성 → PDF 업로드 → 최종화 → 견적 → 주문 (CLI)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweet-book/bookprint-pdf-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sweet-book/bookprint-pdf-demo/issues"
+  },
+  "homepage": "https://github.com/sweet-book/bookprint-pdf-demo#readme",
+  "type": "module",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "depcruise": "depcruise src --config .dependency-cruiser.cjs",
+    "test:unit": "tsx --test tests/unit/**/*.test.ts tests/review/**/*.test.ts",
+    "test:review": "tsx --test tests/review/**/*.test.ts",
+    "test": "tsx --test tests/**/*.test.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "cli": "node --env-file-if-exists=.env --import tsx src/cli/main.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.0",
+    "@types/node": "^24.3.0",
+    "dependency-cruiser": "^17.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

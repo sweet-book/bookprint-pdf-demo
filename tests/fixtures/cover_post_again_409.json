@@ -1,0 +1,1 @@
+{"success":false,"message":"Conflict","data":null,"errorCode":"ERR_CONFLICT","errors":["표지 PDF가 이미 등록되어 있습니다. 교체하려면 PUT 메서드를 사용하세요."],"fieldErrors":[]}
